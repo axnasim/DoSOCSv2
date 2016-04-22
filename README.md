@@ -202,3 +202,7 @@ Maintainers
 
 
 (This work has been funded through the National Science Foundation VOSS-IOS Grant: 1122642.)
+
+<h2>Usage</h2>
+
+Run mavpom.sh in same location as pom file. Jar files will be stored to folder <dpdncy> and the dependency tree will be written to dependencyfile.txt. jar.py will scan packages in dpdncy folder, generate document and print SPDX.
