@@ -190,18 +190,9 @@ Use `dosocs2 --help` to get the full help text. The `doc` directory
 here also provides more detailed information about how `dosocs2` works
 and how to use it.
 
+<h2>Usage</h2>
 
-History
--------
-
-dosocs2 owes its name and concept to the
-[DoSOCS](https://github.com/socs-dev-env/DoSOCS) tool created by Zac
-McFarland, which in turn was spun off from the [do_spdx](https://github.com/ttgurney/yocto-spdx/blob/master/src/spdx.bbclass) plugin for Yocto
-Project, created by Jake Cloyd and Liang Cao.
-
-dosocs2 aims to fill the same role as DoSOCS, but with support for SPDX 2.x, a
-larger feature set, and a more modular implementation, among other changes.
-
+Run mavpom.sh in same location as pom file. Jar files will be stored to folder <dpdncy> and the dependency tree will be written to dependencyfile.txt. jar.py will scan packages in dpdncy folder, generate document and print SPDX.
 
 Maintainers
 -----------
@@ -210,7 +201,3 @@ Maintainers
 
 
 (This work has been funded through the National Science Foundation VOSS-IOS Grant: 1122642.)
-
-<h2>Usage</h2>
-
-Run mavpom.sh in same location as pom file. Jar files will be stored to folder <dpdncy> and the dependency tree will be written to dependencyfile.txt. jar.py will scan packages in dpdncy folder, generate document and print SPDX.
