@@ -133,7 +133,7 @@ Finally, to create all necessary tables and views in the database:
 You only need to do this once. **This command will drop all
 existing tables from your SPDX database, so be careful!**
 
-Usage
+Scan package
 -----
 
 The simplest use case is scanning a package, generating a
