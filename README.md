@@ -62,6 +62,14 @@ Optional:
 Python libraries:
 - All Python dependencies are handled automatically by `pip`.
 
+##### DoSOCS needs these libraries<br />
+| File(s) | Commands |
+| --- | --- |
+|SQLAlchemy|`pip install sqlalchemy`|
+|python-mysqldb|`sudo apt-get build-dep python-mysqldb`|
+|libpq-dev|`sudo apt-get install libpq-dev`|
+|posstgreSQL|`pip install psycopg2`|
+|libglib2.0-dev|`sudo apt-get install libglib2.0-dev`|
 
 Installation
 ------------
