@@ -192,7 +192,7 @@ and how to use it.
 
 <h2>Usage</h2>
 
-Run mavpom.sh in same location as pom file. Jar files will be stored to folder <dpdncy> and the dependency tree will be written to dependencyfile.txt. jar.py will scan packages in dpdncy folder, generate document and print SPDX.
+Run mavpom.sh in same location as pom file. Jar files will be stored to folder called dpdncy and the dependency tree will be written to deplevels.txt. The jar.py will scan packages in the dpdncy folder, generate document and print SPDX.
 
 Maintainers
 -----------
