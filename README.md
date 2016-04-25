@@ -66,10 +66,11 @@ Python libraries:
 | File(s) | Commands |
 | --- | --- |
 |SQLAlchemy|`pip install sqlalchemy`|
-|python-mysqldb|`sudo apt-get build-dep python-mysqldb`|
 |libpq-dev|`sudo apt-get install libpq-dev`|
 |posstgreSQL|`pip install psycopg2`|
 |libglib2.0-dev|`sudo apt-get install libglib2.0-dev`|
+|git|`sudo apt-get install git`|
+|virtualenv|`pip install virtualenv`|
 
 Installation
 ------------
