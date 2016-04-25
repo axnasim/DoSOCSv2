@@ -66,6 +66,7 @@ Python libraries:
 | File(s) | Commands |
 | --- | --- |
 |SQLAlchemy|`pip install sqlalchemy`|
+|python-pip|`sudo apt-get install python-pip`|
 |libpq-dev|`sudo apt-get install libpq-dev`|
 |posstgreSQL|`pip install psycopg2`|
 |libglib2.0-dev|`sudo apt-get install libglib2.0-dev`|
